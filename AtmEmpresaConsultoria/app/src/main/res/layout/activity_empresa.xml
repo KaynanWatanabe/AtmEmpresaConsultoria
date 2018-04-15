@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmconsultoria.studio.com.atmempresaconsultoria.EmpresaActivity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empresa_detalhes"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginBottom="25dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Whenever you cry  Just count your blessings  Every time you try  Learn something, believe yourself  Look to the sky  Like a bird without wings  If you want to fly  Feel your heart, release yourself   We are alive in this world  Life is sometimes unfair  We keep going in this world  Lord will hear our prayers   Look up at the sky  Like a bird without wings  If you want to fly  Feel your breeze, release yourself  Why do you sigh?  Just count your blessings  Every time you try  Find something, believe yourself   My mission is gonna be a tough one  I know it&apos;s not a game anymore  I swear that I&apos;ll never fail again  &apos;Cuz don&apos;t wanna regret anymore  Can you hear I&apos;m calling you?  I just wanna feel you  Don&apos;t forget to remember  So please remember  I hear you are calling me  I want you to feel me  You know I won&apos;t surrender  Never surrender   My mission I&apos;ve got to execute  I know it&apos;s not a game anymore  I swear that I&apos;ll never fail again  &apos;Cuz don&apos;t wanna regret anymore "
+            android:id="@+id/textView2"
+            android:padding="@dimen/padding_padrao" />
+    </ScrollView>
+
+</RelativeLayout>
